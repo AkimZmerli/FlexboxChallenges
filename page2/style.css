@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+
+  src: url("/fonts/inter-v13-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  width: 451px;
+  height: 689px;
+  border: 5px, black;
+  border-radius: 16px;
+  box-shadow: inset;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /*padding: 20px;*/
+  background-color: #ffffff;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+
+  /* Border */
+  border: 1px solid #e0e0e0;
+  display: block;
+}
+
+.card {
+  padding: 16px 32px;
+}
+
+img {
+  border-radius: 16px;
+}
+
+h3 {
+  padding: 12px 0;
+}
+
+b {
+  color: #000;
+}
+
+p {
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+.phone {
+  margin-right: 16px;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  font-size: 32px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 4%;
+  padding-bottom: 24px;
+}
+
+.back-arrow {
+  padding: 6px 12px;
+  border-radius: 4px;
+
+  background-color: #d3d3d3;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+}
+
+.placement {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.minus-button,
+.plus-button {
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  color: #8a8a8a;
+  font-size: 12px;
+}
+
+.digit {
+  padding: 0 8px;
+  font-size: 12px;
+  color: #8a8a8a;
+  padding: 0 32px;
+}
+
+.location {
+  padding: 24px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.arrow {
+  display: flex; /* Set display to flex */
+  align-items: center; /* Center items vertically */
+}
+
+.combo {
+  display: flex; /* Set display to flex */
+  flex-direction: row; /* Ensure items are in a row */
+}
+
+.rectangle {
+  height: 54px;
+  width: 54px;
+  border-radius: 8px;
+  background-color: #e5e4e4;
+  margin-right: 16px;
+}
+
+p {
+  padding-top: 8px;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+  font-size: 32px;
+}
+
+.arrow-button:hover {
+  color: #3169d8;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column {
+  flex: 1; /* Take up available space */
+}
+
+.sub {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 12px;
+}
+
+.shipping {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 12px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+/* Styles for the left and right elements */
+.left {
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.right {
+  font-weight: bold;
+}

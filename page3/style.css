@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+
+  src: url("/fonts/inter-v13-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  display: flex;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  width: 451px;
+  height: 689px;
+  border: 5px, black;
+  border-radius: 16px;
+  box-shadow: inset;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /*padding: 20px;*/
+  background-color: #ffffff;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+
+  /* Border */
+  border: 1px solid #e0e0e0;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.jordan,
+.bone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 12px;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.text {
+  margin-left: 10px; /* Adjust this value to your preference */
+  margin-top: 10px; /* Adjust this value to increase the space above the text */
+  margin-bottom: 10px; /* Adjust this value to increase the space below the text */
+}
+
+.price {
+  margin-left: auto; /* This will push the price to the right side */
+}
+
+.billing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; /* Align items vertically */
+  border-bottom: 1px solid #bab9b9;
+  border-top: 1px solid #bab9b9;
+  height: 136px;
+  font-size: 12px;
+}
+
+.sub {
+  color: #8a8a8a;
+  display: flex;
+  flex-direction: column;
+}
+
+.ship {
+  padding-bottom: 8px;
+}
+
+.sub .subtotal,
+.sub .shipping {
+  padding-bottom: 8px; /* Double the space between the texts */
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.order {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+img {
+  border-radius: 8px;
+}
+
+p {
+  padding-top: 4px;
+  color: #8a8a8a;
+}
+
+.footer {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ship p {
+  color: black;
+}
+
+.order {
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.totalprice {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  align-items: baseline; /* Align items at the baseline */
+}
+
+.total {
+  font-size: 12px;
+}
+
+.DOLLAR {
+  color: #8a8a8a;
+  font-size: 12px;
+  padding-right: 8px;
+}
+
+button {
+  border: 1px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 16px;
+  border-radius: 10px;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}

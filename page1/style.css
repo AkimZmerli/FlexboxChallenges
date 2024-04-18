@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Inter";
+
+  src: url("/fonts/inter-v13-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+body {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+}
+
+.card {
+  width: 451px;
+  height: 689px;
+  border: 5px, black;
+  border-radius: 16px;
+  box-shadow: inset;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  /*padding: 20px;*/
+  background-color: #ffffff;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+
+  /* Border */
+  border: 1px solid #e0e0e0;
+}
+
+img {
+  border-radius: 16px;
+}
+
+.info {
+  padding-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+}
+
+.info {
+  font-family: "Inter", sans-serif;
+}
+
+.products {
+  padding-bottom: 32px;
+}
+
+h6 {
+  font-weight: bold;
+  color: #3169d8;
+  font-size: 12px;
+}
+
+.header {
+  padding-bottom: 12px;
+}
+
+h3 {
+  padding: 16px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.header2 {
+  padding-bottom: 12px;
+}
+
+.script {
+  font-weight: 400;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.location {
+  padding: 24px;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #bab9b9;
+}
+
+.arrow {
+  display: flex; /* Set display to flex */
+  align-items: center; /* Center items vertically */
+}
+
+.combo {
+  display: flex; /* Set display to flex */
+  flex-direction: row; /* Ensure items are in a row */
+}
+
+.rectangle {
+  height: 54px;
+  width: 54px;
+  border-radius: 8px;
+  background-color: #e5e4e4;
+  margin-right: 16px;
+}
+
+p {
+  padding-top: 8px;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+
+.arrow-button:hover {
+  color: #3169d8;
+}
+
+.footer {
+  display: block;
+}
+
+h4 {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+.tax {
+  font-weight: 400;
+  font-size: 12px;
+  color: #8a8a8a;
+}
+
+.tax {
+  padding-top: 16px;
+  padding-bottom: 24px;
+}
+
+.price {
+  padding-top: 24px;
+}
+
+.button-footer {
+  border: 1px solid #3169d8;
+  background-color: #3169d8;
+  border-radius: 10px;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
+
+.cart {
+  color: #ffffff;
+  font-size: 12px;
+  margin: 0; /* Remove default margin to ensure centering */
+}
+
+.button-footer {
+  border: 1px solid #3169d8;
+  background-color: #3169d8;
+  border-radius: 10px;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+}
